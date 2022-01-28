@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://i.ibb.co/4SqPMtx/238344.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TextSnap </title>
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script type="module" crossorigin src="/assets/index.ca43abd4.js"></script>
+    <link rel="stylesheet" href="/assets/index.f9670069.css">
+  </head>
+  <body>
+    <header>
+      <div class="container_logo">
+        <img id="logo" alt="logo" class="logo">
+        <strong> TextSnap </strong>
+      </div>
+
+        <div class="user">
+            <strong> Usuario </strong>
+            <div class="user_img"></div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="add_text" id="add_text_btn">
+          <i class="fas fa-plus"></i>
+        </div>
+
+        <div class="main_form">
+          <strong id="username">@usuario </strong>
+          <!-- Buttons Fixed -->
+            <div id="save">Save</div>
+            <strong id="close_form"> <i class="fas fa-times"></i> </strong>
+            <div class="user_img"></div>
+            <textarea placeholder="¿Qué está pensando?" name="text" rows="auto" cols="auto"></textarea>
+        </div>
+
+        <div id="content">
+            <strong>Nada por aquí <span> ¯\_(ツ)_/¯ </span></strong>
+        </div>
+
+        <form id="form_user" class="user_settings">
+              <div id="upload_image" class="profile_img"> </div>
+              <input style="display: none" type="file" accept="image/*" />
+              <input type="text" maxlength="15"  required placeholder="Name" name="name" autocomplete="none" />
+              <input type="text" maxlength="15" required placeholder="Username" name="username" autocomplete="none" />
+              <input type="submit"  value="Save"/>
+              <i class="fas fa-times close_form"> </i>
+        </form>
+
+    </main>
+
+<!--
+    <footer>
+      <a href="https://icons8.com/icon/NEPglmnn3rWB/plus">Plus icon by Icons8</a>
+    </footer>
+  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="./src/localstorage.giber.js"></script>
+    
+  </body>
+</html>
