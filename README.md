@@ -5,4 +5,4 @@ TextSnap builded with React JS
 ![Screenshot](https://i.ibb.co/cynK0j3/image.png)
 
 ### Mobile Screenshot
-![Screenshot Mobile](https://i.ibb.co/rcLZycW/image.png)
+![Screenshot Mobile](https://i.imgur.com/57pxrsq.png)
